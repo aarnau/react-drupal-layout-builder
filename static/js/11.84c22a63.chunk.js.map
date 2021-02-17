@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/formatters/StringFormatter.js"],"names":["StringFormatter","items"],"mappings":"mKAAA,2BAQeA,UANS,EAAGC,WAEnB","file":"static/js/11.84c22a63.chunk.js","sourcesContent":["import React from 'react';\n\nconst StringFormatter = ({ items }) => {\n    return (\n        <div></div>\n    )\n}\n\nexport default StringFormatter;"],"sourceRoot":""}

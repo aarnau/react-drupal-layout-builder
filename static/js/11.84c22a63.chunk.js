@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-drupal-layout-builder-example"]=this["webpackJsonpreact-drupal-layout-builder-example"]||[]).push([[11],{131:function(e,a,t){"use strict";t.r(a);var l=t(0),u=t.n(l);a.default=({items:e})=>u.a.createElement("div",null)}}]);
+//# sourceMappingURL=11.84c22a63.chunk.js.map

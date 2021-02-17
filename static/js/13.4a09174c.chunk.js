@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-drupal-layout-builder-example"]=this["webpackJsonpreact-drupal-layout-builder-example"]||[]).push([[13],{124:function(e,a,t){"use strict";t.r(a);var l=t(0),n=t.n(l),o=t(13);a.default=({regions:e,layoutId:a,parents:t})=>n.a.createElement("div",{className:"layout layout--one-section"},n.a.createElement("div",{className:"layout__region layout__region--content"},n.a.createElement(o.a,{blocks:e.content,parents:t})))}}]);
+//# sourceMappingURL=13.4a09174c.chunk.js.map

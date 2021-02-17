@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/blocks/ContentBlock.js"],"names":["ContentBlock","block"],"mappings":"kKAAA,2BAQeA,UANM,EAAGC,WAEhB","file":"static/js/7.662a2d0d.chunk.js","sourcesContent":["import React from 'react';\n\nconst ContentBlock = ({ block }) => {\n    return (\n        <div></div>\n    )\n}\n\nexport default ContentBlock;"],"sourceRoot":""}

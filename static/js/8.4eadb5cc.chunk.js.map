@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/blocks/DynamicListBlock.js"],"names":["DynamicListBlock","block"],"mappings":"kKAAA,2BAQeA,UANU,EAAGC,WAEpB","file":"static/js/8.4eadb5cc.chunk.js","sourcesContent":["import React from 'react';\n\nconst DynamicListBlock = ({ block }) => {\n    return (\n        <div></div>\n    )\n}\n\nexport default DynamicListBlock;"],"sourceRoot":""}

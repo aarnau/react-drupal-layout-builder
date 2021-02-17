@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/blocks/SliderBlock.js"],"names":["SliderBlock","block"],"mappings":"kKAAA,2BAQeA,UANK,EAAGC,WAEf","file":"static/js/9.add94011.chunk.js","sourcesContent":["import React from 'react';\n\nconst SliderBlock = ({ block }) => {\n    return (\n        <div></div>\n    )\n}\n\nexport default SliderBlock;"],"sourceRoot":""}

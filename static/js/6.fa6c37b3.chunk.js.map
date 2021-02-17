@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/blocks/BasicBlock.js"],"names":["BasicBlock","block"],"mappings":"kKAAA,2BAQeA,UANI,EAAGC,WAEd","file":"static/js/6.fa6c37b3.chunk.js","sourcesContent":["import React from 'react';\n\nconst BasicBlock = ({ block }) => {\n    return (\n        <div>Basic Block</div>\n    )\n}\n\nexport default BasicBlock;"],"sourceRoot":""}
