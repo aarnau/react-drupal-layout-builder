@@ -10,10 +10,14 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "i18next": "^19.8.8",
+    "i18next-http-backend": "^1.1.0",
+    "locutus": "^2.0.14",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
-    "react-drupal-layout-builder": "file:.."
+    "react-drupal-layout-builder": "file:..",
+    "react-i18next": "^11.8.7",
+    "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
