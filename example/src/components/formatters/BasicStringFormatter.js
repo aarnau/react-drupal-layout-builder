@@ -1,6 +1,6 @@
 import React from 'react';
 
-const StringFormatter = ({ items }) => {
+const BasicStringFormatter = ({ items }) => {
     return (
         items.map((item, i) => {
             return (
@@ -10,4 +10,4 @@ const StringFormatter = ({ items }) => {
     );
 }
 
-export default StringFormatter;
+export default BasicStringFormatter;

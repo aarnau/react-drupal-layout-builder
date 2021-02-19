@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Blocks } from 'react-drupal-layout-builder'
 
-const TwoColSection = ({ regions, layoutId, parents }) => {
+const TwoColSection = ({ regions, layoutId, parents, first, second }) => {
     return (
         <div className="layout layout--twocol-section">
             <div className="layout__region layout__region--first">
-                <Blocks blocks={regions.first} parents={parents} />
+                {first}
             </div>
             <div className="layout__region layout__region--second">
-                <Blocks blocks={regions.second} parents={parents} />
+                {second}
             </div>
         </div>
     )

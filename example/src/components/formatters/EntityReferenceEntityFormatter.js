@@ -27,12 +27,15 @@ const EntityReferenceEntityFormatter = ({ items, formatter, settings, parents })
                 ent,
                 ...parents
             ];
-            console.log(arrayParents);
             return <div key={ent.getId()}><LayoutBuilder parents={arrayParents} /></div>
         });
     }
-    console.log('loading');
-    return <div>loading...</div>;
+
+    if (error !== null) {
+        console.error(error);
+    }
+
+    return null;
 }
 
 export default EntityReferenceEntityFormatter;

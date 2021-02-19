@@ -9,9 +9,12 @@ const FieldBlock = ({ block, parents }) => {
     }
     let [blockType, entityType, bundle, fieldName] = block.configuration.id.split(':');
     const items = parents[0].getFieldValue(fieldName);
+    if (!Array.isArray(items) || items.length === 0) {
+        return null;
+    }
     const settings = parents[0].getFieldConfig(fieldName);
     return (
-        <Formatter items={items} configuration={block.configuration} settings={settings} parents={parents} />
+        <Formatter items={items} configuration={block.configuration} settings={settings} parents={parents} fieldName={fieldName} />
     );
 }
 

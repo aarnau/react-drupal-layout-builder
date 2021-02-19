@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Blocks } from 'react-drupal-layout-builder'
 
-const OneColSection = ({ regions, layoutId, parents }) => {
+const OneColSection = ({ regions, layoutId, parents, content }) => {
     return (
         <div className="layout layout--one-section">
             <div className="layout__region layout__region--content">
-                <Blocks blocks={regions.content} parents={parents} />
+                {content}
             </div>
         </div>
     )
